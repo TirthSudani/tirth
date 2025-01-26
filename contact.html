@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>login here</h2>
+        <form  method="post">
+            <label>Full Name:</label>
+            <input input="text" id="name"  name="Name" placeholder="Enter your full name">
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"  placeholder="Enter your address"></textarea>
+
+            <label for="mobile">Mobile Number:</label>
+            <input input="tel" id="mobile" name="mobile"  placeholder="Enter your mobile number" pattern="[0-9]{10}">
+
+            <label for="email">Email Address:</label>
+            <input input="email" id="email" name="email"  placeholder="Enter your email address">
+            <div class="butt">
+
+                <button type="submit">Submit</button>    
+                <button type="reset" id="but1">reset</button>
+            </div>
+        </form>
+    </div>  
+
+</body>
+</html>
